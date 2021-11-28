@@ -3,11 +3,11 @@ import Link from 'next/link';
 const Signin = function(){
     return(
         <div>
-           <head>
+           <Head>
                <title>
                    Signin Page
                </title>
-           </head>
+           </Head>
             <form className="mx-auto my-4" style={{maxWidth: '500px'}}>
                 <div className="mb-3">
                     <label htmlFor="exampleInputEmail1" className="form-label">Email address</label>
